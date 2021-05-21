@@ -1,7 +1,9 @@
 html {
-    background-color: antiquewhite;
+    background-color: #3c37c9;
     align-items: center;
     text-align: center;
+    font-family: 'Orelaga One', sans-serif;
+    color: white;
 }
 
 img {
@@ -13,7 +15,20 @@ img {
 }
 
 button {
+    margin-top: 2em;
     border: none;
+    padding: 1em;
+    background-color: white;
+    border-radius: 5px;
+    font-family: 'Orelaga One', sans-serif;
+    font-size: 1em;
+}
+
+button:hover {
+    transition: ease all .3s;
+    background-color: red;
+    color: white;
+    border: black 3px solid;
 }
 
 p {
