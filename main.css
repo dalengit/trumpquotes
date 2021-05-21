@@ -1,0 +1,24 @@
+html {
+    background-color: antiquewhite;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+}
+
+.quote {
+    text-align: center;
+}
+
+button {
+    border: none;
+}
+
+p {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2em;
+    font-size: 1.5em;
+}
