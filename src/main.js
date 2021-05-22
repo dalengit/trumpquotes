@@ -3,7 +3,7 @@
 function getRequest(){
         const options = {
     method: 'GET',
-    url: 'http://tronalddump.io/random/quote'
+    url: 'https://tronalddump.io/random/quote'
     };
 
     axios.request(options).then(function (response) {
