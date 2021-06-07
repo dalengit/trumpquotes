@@ -3,11 +3,12 @@
 function getRequest(){
         const options = {
     method: 'GET',
-    url: 'https://tronalddump.io/random/quote'
+    url: 'https://api.whatdoestrumpthink.com/api/v1/quotes/random'
     };
 
     axios.request(options).then(function (response) {
-        let parsedQuote = response.data.value;
+        console.log(response);
+        let parsedQuote = response.data.message;
         console.log(parsedQuote);
         var quote = document.getElementById('quote');
         quote.innerText = "\"" + parsedQuote + "\"";
